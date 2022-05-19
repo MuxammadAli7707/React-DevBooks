@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import Card from "./card/Card";
-import Category from "./category/Category";
 import './Main.scss'
 import Search from "./search/Search";
+import obj from './object/objects';
+import Category from "./card/category/Category";
 
-export default function Main() {
+function Main() {
+  const [newArr, setNewArr] = useState([]);
+
+  useEffect(() => {
+    setNewArr(obj);
+  }, []);
+  
   return(
     <div className="mains">
     <main>
@@ -12,11 +19,17 @@ export default function Main() {
         <section className="main d-flex flex-column align-items-center">
           <Search />
           <h2 className="main__title">Asosiy kategoriyalar</h2>
-          <Category />
-          <Card />
+          <Category 
+            obj={obj}
+            newArr={newArr}
+            setNewArr={setNewArr}
+          />
+          {/* <Card /> */}
         </section>
       </div>
     </main>
     </div>
   )
 }
+
+export default Main
