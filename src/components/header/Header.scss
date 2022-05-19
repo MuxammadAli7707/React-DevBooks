@@ -37,6 +37,7 @@
     text-decoration: none;
     color: #fff;
     transition: all 0.3s linear;
+    padding-bottom: 30px;
 
     &:hover {
       color: #ffffff9d;
@@ -73,5 +74,7 @@
     font-size: 32px;
     color: #ffffff80;
   }
-
+}
+.actives {
+  border-bottom: 2px solid #fff;
 }
