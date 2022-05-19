@@ -26,7 +26,7 @@ function Buttons(props) {
     <>
       <li className="category__item">
         <button onClick={filterHandler} 
-        className="category__btn"
+        className="category__btn activ"
         id={props.id}
         >
           {props.item}
