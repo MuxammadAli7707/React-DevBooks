@@ -17,7 +17,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n1,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biri maʼrifatparvar shoir, dramaturg, jurnalist, olim, davlat va jamoat arbobi Abdulla Avloniydir. U 1878 yilning 12 iyulida Toshkentning Mergancha mahallasida, toquvchi Miravlon aka oilasida dunyoga keldi. Bolaligi Mirobod mahallasining egri-bugri kochalarida, kopchilik qismini ruslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Temuriy"
   },
   {
     id: 2,
@@ -25,7 +25,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n2,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biri maʼrifatparvar shoir, dramaturg, jurnalist, olim, davlat va jamoat arbobi Abdulla Avloniydir. U 1878 yilning 12 iyulida Toshkentning Mergancha aa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Jadid"
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n3,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biri maʼrifatparvar shoir, dramaturg, jurnalist, olim, davlat va jamoat arbobi Abdulla Avloniydir. U 1878 yilning 12 iyulida Toshkentning Mergancha mahallasida, toquvchi Miravlon aka oilasida dunyoga keldi. Bolaligi Mirobod mahallifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Sovet"
   },
   {
     id: 4,
@@ -41,7 +41,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n4,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biri maʼrifatparvar shoir, dramaturg, jurnalist, olim, davlat va jamoat arbobi Abdulla Avloniydir. U 1878 yilning 12 iyulida Toshkentning Mergancha mahallasida, toquvchi Miravlon aka oilasida dunyoga keldi. Bolaligi Mirobod mahallasiningchiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Mustaqillik"
   },
   {
     id: 5,
@@ -49,7 +49,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n5,
-    desc: `8 yilning 12 iyulida Toshkentning Mergancha mahallasida, toquvchi Miravlon aka oilasida dunyoga keldi. Bolaligi Mirobod mahallasining egri-bugri kochalarida, kopchilik qismini ruslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Sovet"
   },
   {
     id: 6,
@@ -57,7 +57,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n6,
-    desc: `qchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Jadid"
   },
   {
     id: 7,
@@ -65,7 +65,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n7,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biri maʼrifatparvar shoir, dramaturg, jurnalist, olim, davlat va jamoat arbobipchilik qismini ruslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Temuriy"
   },
   {
     id: 8,
@@ -73,7 +73,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n8,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biga keldi. Bolaligi Mirobod mahallasining egri-bugri kochalarida, kopchilik qismini uslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Mustaqillik"
   },
   {
     id: 9,
@@ -81,7 +81,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n9,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biga keldi. Bolaligi Mirobod mahallasining egri-bugri kochalarida, kopchilik qismini uslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Jadid"
   },
   {
     id: 10,
@@ -89,7 +89,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n10,
-    desc: `XIX asr oxiri XX asr boshidagi ozbek milliy madaniyatining mashhur vakillaridan biga keldi. Bolaligi Mirobod mahallasining egri-bugri kochalarida, kopchilik qismini uslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Jadid"
   },
   {
     id: 10,
@@ -97,7 +97,7 @@ const Object = [
     birth: 1878,
     dead: 1934,
     img: n11,
-    desc: `XIX  qismini ruslar tashkil qilgan temir yol ishchilari bolalari orasida kechdi. Oqchidagi eski maktabda, song madrasada oqidi (1885–1886). Mustaqil mutolaa bilan shugʻullandi. Arab, fors, rus tillarini organdi. Orenburg, Qozon, Tiflisda chiqib turgan gazeta-jurnallarni kuzatib bordi. Qisqa muddat ichida u maʼrifatparvar sifatida tanildi va olkadagi ijgimoiy-madaniy harakatchilikning faol namoyandalaridan biriga aylandi.`,
+    cate: "Sovet"
   },
 ];
 
