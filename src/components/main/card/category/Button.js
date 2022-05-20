@@ -32,17 +32,6 @@ function Buttons(props) {
           {props.item}
         </button>
       </li>
-     {/* <ul className="category d-flex">
-      <li className="category__item">
-        <button onClick={filterHandler} className="category__btn category__activ">Jadid adabiyoti</button>
-      </li>
-      <li className="category__item">
-        <button onClick={filterHandler} className="category__btn">Sovet davri</button>
-      </li>
-      <li className="category__item">
-        <button onClick={filterHandler} className="category__btn">Mustaqillik davri</button>
-      </li>
-    </ul>  */}
     </>
   );
 }

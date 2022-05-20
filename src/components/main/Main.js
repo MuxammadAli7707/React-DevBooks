@@ -17,14 +17,17 @@ function Main() {
     <main>
       <div className="conatiner">
         <section className="main d-flex flex-column align-items-center">
-          <Search />
+          <Search 
+            obj={obj}
+            newArr={newArr}
+            setNewArr={setNewArr}
+          />
           <h2 className="main__title">Asosiy kategoriyalar</h2>
           <Category 
             obj={obj}
             newArr={newArr}
             setNewArr={setNewArr}
           />
-          {/* <Card /> */}
         </section>
       </div>
     </main>
