@@ -1,4 +1,3 @@
-import { Router, Routes } from 'react-router-dom';
 import './App.css';
 import Header from './Components/header/Header';
 import Hero from './Components/hero/Hero';
