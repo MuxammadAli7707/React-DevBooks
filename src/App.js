@@ -1,8 +1,8 @@
 import { Router, Routes } from 'react-router-dom';
 import './App.css';
-import Header from './components/header/Header';
-import Hero from './components/hero/Hero';
-import Main from './components/main/Main';
+import Header from './Components/header/Header';
+import Hero from './Components/hero/Hero';
+import Main from './Components/main/Main';
 
 function App() {
   return (
@@ -10,9 +10,6 @@ function App() {
       <Header />
       <Hero />
       <Main />
-      {/* <Routes>
-        <Router path="about" element={<About />} />
-      </Routes> */}
     </>
   );
 }
