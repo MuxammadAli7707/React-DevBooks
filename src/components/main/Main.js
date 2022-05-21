@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Card from "./card/Card";
 import './Main.scss'
 import Search from "./search/Search";
 import obj from './object/objects';
