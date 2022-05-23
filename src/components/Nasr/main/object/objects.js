@@ -10,7 +10,6 @@ import nine from "../../../assets/images/object/abdullaqodiriy.jpg";
 import ten from "../../../assets/images/object/behbudiy.jpg";
 import eleven from "../../../assets/images/object/muin.jpg";
 
-
 const Object = [
   {
     id: 1,

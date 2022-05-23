@@ -1,22 +1,25 @@
 import { useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import Forum from './Components/Forum/Forum';
+import Sign from './Components/Forum/Sign';
 import Header from './Components/header/Header';
-import Hero from './Components/hero/Hero';
+import Home from './Components/Home/Home';
 import Adiblar from './Components/main/card/Adiblar/Adiblar';
-import Main from './Components/main/Main';
 import obj from './Components/main/object/objects'
-import Nazm from './Components/Nazm/Nazm';
+import Nasr from './Components/Nasr/Nasr';
 
 function App() {
   const [newObj, setnewObj] = useState([...obj]);
   return (
     <>
       <Header />
-      <Hero />
-      <Main />
       <Routes>
-        <Route path='nazm' element={<Nazm />} />
+        <Route path='/' element={<Home />} />
+        <Route path='nasr' element={<Nasr />} />
+        <Route path='forum' element={<Forum />} />
+        <Route path='nazm' element={<Sign />} />
+        <Route path='forum' element={<Forum />} />
         <Route path='Adiblar/:id' element={<Adiblar newObj={newObj} />} />
       </Routes>
     </>

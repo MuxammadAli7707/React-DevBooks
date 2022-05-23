@@ -1,7 +1,7 @@
 import React from "react";
 import './Header.scss'
 import havatar from '../../assets/images/header-avatar.jpg'
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 const navbar = ["Bosh sahifa", "Nasr", "Nazm", "Maqolalar", "Forum"];
 
 export default function Header() {
@@ -10,7 +10,7 @@ export default function Header() {
       <div className="container">
         <div className="d-flex justify-content-between align-items-center">
           <div className="header__logobox">
-            <a className="header__logo" href="/">Badiiyat</a>  
+            <Link to="/" className="header__logo">Badiiyat</Link>  
           </div>
 
           <nav className="header__nav d-flex align-items-center">
@@ -18,7 +18,7 @@ export default function Header() {
               {navbar.map((nav, i) => {
                 return (
                   <>
-                    <li className="header__item" key={i}>
+                    <li className="header__item" key={i+10}>
                       {nav === "Bosh sahifa" ? (
                         <NavLink to={"/"} className='header__link'>
                           {nav}
@@ -26,9 +26,7 @@ export default function Header() {
                       ) : (
                         <NavLink
                         to={nav}
-                        className={`header__link item_${
-                          nav === "Bosh sahifa" ? "actives" : ""
-                        }`}
+                        className={'header__link'}
                       >
                         {nav}
                       </NavLink>
@@ -38,11 +36,6 @@ export default function Header() {
                   </>
                 )
               })}
-              {/* <li className="header__item"><a className="header__link actives" href="/">Bosh sahifa</a></li>
-              <li className="header__item"><a href="#" className="header__link">Nashr</a></li>
-              <li className="header__item"><a className="header__link" href="#">Nazm</a></li>
-              <li className="header__item"><a className="header__link" href="#">Maqolalar</a></li>
-              <li className="header__item"><a className="header__link" href="#">Forum</a></li> */}
             </ul>
           <div className="header__usersbox d-flex justify-content-between align-items-center">
             <button className="header__btn"><img src={havatar} alt="avatar" /></button>

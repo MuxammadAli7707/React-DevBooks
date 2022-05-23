@@ -42,16 +42,6 @@
     &:hover {
       color: #ffffff9d;
     }
-    // &::before {
-    //   content: '';
-    //   position: absolute;
-    //   bottom: -32px;
-    //   left: 0;
-    //   width: 100%;
-    //   border-radius: 6px;
-    //   background-color: #fff;
-    //   border: 1px solid #fff;
-    // }
   }
   &__btn {
     width: 50px;
@@ -75,6 +65,36 @@
     color: #ffffff80;
   }
 }
-.actives {
-  border-bottom: 2px solid #fff;
+
+.header__link::after {
+  content: "";
+  width: 0%;
+  border-bottom: 2px solid #c9ac8c;
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition:all 0.3s ease;
+}
+
+.header__link:hover.header__link::after {
+  width: 100%;
+  opacity: 1;
+}
+
+.active {
+  color: #c9ac8c!important;
+  opacity: 1;
+}
+.active::after {
+  content: "";
+  width: 100%;
+  border-bottom: 2px solid #c9ac8c;
+  display: inline-block;
+  opacity: 1;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition:all 0.3s linear;
 }
