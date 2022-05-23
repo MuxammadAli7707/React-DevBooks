@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import imaging from "../../assets/images/Frame.svg";
 import "./Forum.scss";
 function Sign() {
@@ -12,9 +13,9 @@ function Sign() {
           <h2 className="forum__title">Sign in</h2>
           <span className="forum__text">
             Do not you have an account?
-            <a href="#" className="forum__next">
+            <Link to="forum" className="forum__next">
               Sign Up
-            </a>
+            </Link>
           </span>
         </div>
         <form className="forum__reg">

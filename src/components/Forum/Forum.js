@@ -2,7 +2,6 @@ import React from 'react';
 import './Forum.scss'
 import imag from '../../assets/images/Two factor authentication-pana 1.svg';
 import { Link } from 'react-router-dom';
-import Sign from './Sign';
 function Forum() {
   return (
     <div className='forum d-flex'>  
@@ -13,7 +12,7 @@ function Forum() {
         <div className='forum__signup'>
           <h2 className='forum__title'>Sign up</h2>
           <span className='forum__text'>Already have an account?
-          <a href='#' className='forum__next'>Sign in</a>
+          <Link to="nazm" className='forum__next'>Sign in</Link>
           </span>
         </div>
         <form className='forum__reg'>
