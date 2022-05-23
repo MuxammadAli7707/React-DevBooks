@@ -13,14 +13,13 @@ function App() {
   const [newObj, setnewObj] = useState([...obj]);
   return (
     <>
-    
+
       <Header />
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='nasr' element={<Nasr />} />
         <Route path='forum' element={<Forum />} />
         <Route path='nazm' element={<Sign />} />
-        <Route path='forum' element={<Forum />} />
         <Route path='Adiblar/:id' element={<Adiblar newObj={newObj} />} />
       </Routes>
     </>

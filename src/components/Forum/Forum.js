@@ -12,7 +12,7 @@ function Forum() {
         <div className='forum__signup'>
           <h2 className='forum__title'>Sign up</h2>
           <span className='forum__text'>Already have an account?
-          <Link to="nazm" className='forum__next'>Sign in</Link>
+          <Link to={'/nazm'} className='forum__next'>Sign in</Link>
           </span>
         </div>
         <form className='forum__reg'>

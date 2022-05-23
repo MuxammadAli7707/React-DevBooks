@@ -13,7 +13,7 @@ function Sign() {
           <h2 className="forum__title">Sign in</h2>
           <span className="forum__text">
             Do not you have an account?
-            <Link to="forum" className="forum__next">
+            <Link to={'/forum'} className="forum__next">
               Sign Up
             </Link>
           </span>
