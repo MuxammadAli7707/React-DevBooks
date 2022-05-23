@@ -18,7 +18,7 @@ export default function Header() {
               {navbar.map((nav, i) => {
                 return (
                   <>
-                    <li className="header__item" key={i+10}>
+                    <li className="header__item" key={i}>
                       {nav === "Bosh sahifa" ? (
                         <NavLink to={"/"} className='header__link'>
                           {nav}
